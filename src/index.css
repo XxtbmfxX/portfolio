@@ -1,0 +1,26 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --text-color: #898989;
+    --background-color: #e8e8e8;
+    --title-color: #292929;
+    --description-color: #666666;
+  }
+  
+
+  body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+  }
+  
+  h1, h2, h3 {
+    color: var(--title-color);
+  }
+  
+  p {
+    color: var(--description-color);
+  }
+  
