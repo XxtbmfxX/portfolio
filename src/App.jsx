@@ -11,7 +11,7 @@ function App() {
       <Description />
       <hr style={{ width: "80%", maxWidth: "500px", alignSelf: "center" }} />
       <LanguageList />
-      <h1>No me andes con weas shushetumare</h1>
+      <h1>Creao que funciona broh</h1>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <Card title="Card 1" description="This is the first card" />
         <Card title="Card 2" description="This is the second card" />
