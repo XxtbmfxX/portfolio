@@ -1,19 +1,20 @@
 import React from "react";
 
+import HeroImage from "../../assets/images/Toro_logo-nobackground.png";
+
 export default function Description() {
   return (
     <div className="Description m-4 p-2 rounded-xl text-gray-200  ">
-      <p>
-        As a front-end developer, I have a strong foundation in HTML, CSS, and
-        JavaScript and am skilled in creating visually appealing and
-        user-friendly websites. I am proficient in responsive design and have a
-        keen eye for detail. I am eager to continue learning and growing my
-        skills in the field, and am excited to apply my knowledge and passion
-        for web development to any opportunity that comes my way. I am a quick
-        learner and am always willing to go the extra mile to deliver
-        high-quality work. I am confident in my ability to contribute to a team
-        and am excited to start my career in front-end development.
-      </p>
+      <div className=" bg-gray-800 p-6 sm:p-12 md:p-24 lg:p-32 xl:p-48 flex flex-row flex-wrap items-center justify-center text-center">
+        <img
+          src={HeroImage}
+          alt="toro"
+          className="w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 xl:w-128 xl:h-128 rounded-full mb-4"
+        />
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white">
+          Welcome to my portfolio :D
+        </h1>
+      </div>
     </div>
   );
 }

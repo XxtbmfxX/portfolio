@@ -1,33 +1,43 @@
 import React from "react";
+import { SiHtml5, SiCss3, SiJavascript, SiReact } from "react-icons/si";
 
 const LanguageList = () => (
-  <div className="px-4 py-8 bg-gray-100">
-    <h2 className="text-2xl font-bold text-gray-800 mb-4">
+  <div className=" my-5 px-4 py-8 bg-gray-700 text-yellow-50 ">
+    <h2 className="text-2xl font-bold text-gray-100 mb-4">
       Front-End Programming Languages
     </h2>
-    <ul className="list-none">
-      <li className="py-4">
-        <h3 className="text-xl font-bold text-gray-800">HTML</h3>
-        <p className="text-gray-700">
-          I have been using HTML for several years and am proficient in creating
-          semantic layouts, forms, and other elements.
-        </p>
+    <ul className=" my-10 container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 list-none ">
+      <li className=" flex flex-col items-center justify-center  py-4">
+        <SiHtml5 className="inline-block text-8xl" />
+        <h3
+          style={{ textAlign: "center" }}
+          className=" text-yellow-50 text-xl font-bold  mt-10 ">
+          HTML
+        </h3>
       </li>
-      <li className="py-4">
-        <h3 className="text-xl font-bold text-gray-800">CSS</h3>
-        <p className="text-gray-700">
-          I have a strong understanding of CSS, including selectors, cascading,
-          and responsive design. I have experience with preprocessors such as
-          SASS and LESS.
-        </p>
+      <li className=" flex flex-col items-center justify-center py-4">
+        <SiCss3 className="inline-block text-8xl" />
+        <h3
+          style={{ textAlign: "center" }}
+          className=" text-yellow-50 text-xl font-bold  mt-10 ">
+          CSS
+        </h3>
       </li>
-      <li className="py-4">
-        <h3 className="text-xl font-bold text-gray-800">JavaScript</h3>
-        <p className="text-gray-700">
-          I have extensive experience with JavaScript, including advanced
-          concepts such as object-oriented programming, asynchronous
-          programming, and functional programming.
-        </p>
+      <li className=" flex flex-col items-center justify-center py-4">
+        <SiJavascript className="inline-block text-8xl" />
+        <h3
+          style={{ textAlign: "center" }}
+          className=" text-yellow-50 text-xl font-bold  mt-10 ">
+          JavaScript
+        </h3>
+      </li>
+      <li className=" flex flex-col items-center justify-center py-4">
+        <SiReact className="inline-block text-8xl" />
+        <h3
+          style={{ textAlign: "center" }}
+          className=" text-yellow-50 text-xl font-bold  mt-10 ">
+          JavaScript
+        </h3>
       </li>
     </ul>
   </div>
